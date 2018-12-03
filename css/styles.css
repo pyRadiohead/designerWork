@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik:400,700');
+
+:root {
+    --main-bg: #C4C4C4;
+    --black: #0E0A18;
+    --grey: #E8DFE0;
+    --purple: #4717F6;
+    --violet: #A33ACB;
+    --darkgrey: #D1C7C8;
+    --main-font: 'Roboto Mono', monospace;
+
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 14px;
+    color: var(--black);
+    background: var(--main-bg);
+    margin: 0;
+}
+
+html {
+    margin: 0 auto;
+    height: 100%;
+}
+
+body,
+html {
+    min-height: 100%;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: var(--grey);
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--grey);
+    font-family: var(--main-font);
+
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+.ba-container {
+    margin: 0 auto;
+    padding-left: 98px;
+    padding-right: 98px;
+
+}
+
+.ba-row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.ba-col-6 {
+    width: 50%;
+}
+
+.ba-header {
+    display: flex;
+    justify-content: space-between;
+    background: var(--main-bg);
+    margin: 0 auto;
+    height: 80px;
+}
+
+.ba-nav-menu {
+    align-self: center;
+}
+
+.ba-menu {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    margin-right: 85px;
+
+}
+
+.ba-menu li+li {
+    margin-left: 30px;
+}
+
+.ba-menu li:hover a {
+    color: var(--violet);
+}
+
+.ba-intro-section {
+    height: calc(100vh - 80px);
+    background: url("../img/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-heading {
+    max-width: 400px;
+    padding-top: 140px;
+}
+
+.intro-sub-heading {
+    margin-top: 25px;
+}
+
+.ba-button {
+    display: inline-block;
+    margin-top: 84px;
+    text-transform: uppercase;
+    background: var(--purple);
+    font-size: 18px;
+    color: var(--grey);
+    width: 270px;
+    height: 51px;
+    text-align: center;
+    line-height: 51px;
+}
+
+.ba-button:hover {
+    background: var(--violet);
+}
+
+/*END of INTRO SECTION*/
+
+/**START OF SECTION ABOUT/*/
+.ba-section-text {
+    max-width: 670px;
+    margin-top: 84px;
+
+}
