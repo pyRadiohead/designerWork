@@ -155,8 +155,38 @@ a {
 /*END of INTRO SECTION*/
 
 /**START OF SECTION ABOUT/*/
+
+.ba-section-about {
+    margin-top: 174px;
+}
+
+.ba-section-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ba-section-title {
+    text-transform: uppercase;
+}
+
+.ba-section-title:before {
+    display: inline-block;
+    content: '';
+    height: 6px;
+    width: 170px;
+    background: var(--purple);
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
 .ba-section-text {
     max-width: 670px;
     margin-top: 84px;
+    align-self: center;
 
+}
+
+/**END OF SECTION ABOUT/*/
+.ba-section-agenda {
+    margin-top: 219px;
 }
